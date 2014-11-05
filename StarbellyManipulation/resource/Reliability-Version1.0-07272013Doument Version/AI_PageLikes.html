@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>AI_PageLikes</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">AI_PageLikes</td></tr>
+</thead><tbody>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Page Likes']</td>
+	<td>----------------------[AI_PageLikes]--------------------------</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>xpath=(//input[@value=''])[2]</td>
+	<td>=[Wait]</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@value=''])[2]</td>
+	<td>[Bubble]</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@class='mstrTransform']/div/div/embed</td>
+	<td>==[Wait for Bubble View Load]</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@class='mstrTransform']/div/div/embed</td>
+	<td>==[Wait Longer]</td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//div[@class='mstrTransform']/div/div/embed</td>
+	<td>==[Wait]</td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//div[@class='mstrmojo-progress']</td>
+	<td>==[Wait for Time Out]</td>
+</tr>
+<tr>
+	<td>waitForNotVisible</td>
+	<td>//div[@class='mstrmojo-progress']</td>
+	<td>==[Wait]</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//span/select</td>
+	<td>label=Movies</td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//div[@class='mojo-overlay-wait']</td>
+	<td>==[Wait for Time Out]</td>
+</tr>
+<tr>
+	<td>waitForNotVisible</td>
+	<td>//div[@class='mojo-overlay-wait']</td>
+	<td>==Wait</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@class='mstrTransform']/div/div/embed</td>
+	<td>==[Wait for Bubble View Load]</td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//div[@class='mstrTransform']/div/div/embed</td>
+	<td>==[Wait]</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//div[7]/div[3]/span/select</td>
+	<td>label=Movie</td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//div[@class='mojo-overlay-wait']</td>
+	<td>==[Wait for Time Out]</td>
+</tr>
+<tr>
+	<td>waitForNotVisible</td>
+	<td>//div[@class='mojo-overlay-wait']</td>
+	<td>==Wait</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@class='mstrTransform']/div/div/embed</td>
+	<td>==[Wait for Bubble View Load]</td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//div[@class='mstrTransform']/div/div/embed</td>
+	<td>==[Wait]</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.mstrmojo-LinkListHoriz-item.nAll</td>
+	<td>[Grid View]</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//input[@value='Page Size']</td>
+	<td>==[Wait]</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Page Size']</td>
+	<td>[Switch to Page Size]</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='% of Page&nbsp;Fans&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Affinity']</td>
+	<td>[Switch to Affinity]</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Overlap&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; % of Audience']</td>
+	<td>[Switch to Overlap]</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@class='mstrmojo-ObjectItem-input'][1]</td>
+	<td>[Click Search box]</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//input[@class='mstrmojo-ObjectItem-input'][1]</td>
+	<td>==[Wait]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@class='mstrmojo-ObjectItem-input'][1]</td>
+	<td>Ince</td>
+</tr>
+<tr>
+	<td>keyUp</td>
+	<td>//input[@class='mstrmojo-ObjectItem-input'][1]</td>
+	<td>e</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@class='mstrmojo-ListBase2-itemsContainer']/div[1]/div/span</td>
+	<td>==[Wait Search Tree]</td>
+</tr>
+<tr>
+	<td>mouseDown</td>
+	<td>//div[@class='mstrmojo-ListBase2-itemsContainer']/div[1]/div/span</td>
+	<td>-[Click Catcher in the Aye]</td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//div[@class='mojo-overlay-wait']</td>
+	<td>==[Wait for Time Out]</td>
+</tr>
+<tr>
+	<td>waitForNotVisible</td>
+	<td>//div[@class='mojo-overlay-wait']</td>
+	<td>==Wait</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@value=''])[3]</td>
+	<td>[Heatmap]</td>
+</tr>
+<tr>
+	<td>waitForElementNotPresent</td>
+	<td>//div[@class='mstrTransform']/div/div/embed</td>
+	<td>==[Wait for Timeout]</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@class='mstrTransform']/div/div/embed</td>
+	<td>==[Wait]</td>
+</tr>
+</tbody></table>
+</body>
+</html>

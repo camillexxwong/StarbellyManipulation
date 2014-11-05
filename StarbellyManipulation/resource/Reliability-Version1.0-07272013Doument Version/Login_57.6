@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>Login_57.6</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Login_57.6</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://localhost:8080/starbelly/servlet/mstrWebAdmin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a.mstrLink &gt; span.mstrHighlighted</td>
+	<td>[MSTR Web]</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(@href, 'mstrWeb?evt=3010&amp;src=mstrWeb.3010&amp;Port=0&amp;Project=Wisdom+Enterprise&amp;Server=10.199.57.6&amp;loginReq=true')])[2]</td>
+	<td>[Wisdom Project@10.199.57.6]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Uid</td>
+	<td>administrator</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Pwd</td>
+	<td>alertadmin</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=3054</td>
+	<td>[Login]</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.mstrLargeIconViewItemName &gt; a.mstrLink</td>
+	<td>==[Wait]</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.mstrLargeIconViewItemName &gt; a.mstrLink</td>
+	<td>[Shared Reports]</td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,1 @@
+java -Xmx1280M -jar ImageCompare.jar
